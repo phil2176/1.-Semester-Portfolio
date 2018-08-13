@@ -1,0 +1,346 @@
+/* Generelle indstillinger*/
+
+img{
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 0.3em;
+}
+
+/* Om sektionen*/
+
+#om .sectionwrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#om h2{
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+#om h3{
+    margin-top: 0.7em;
+    margin-bottom: 0em;
+}
+
+#om p{
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+}
+
+#om column{
+    margin-bottom: 1em;
+}
+
+.column{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+/* Eksempler */
+#eksempler
+
+#eksempler h2{
+    margin-bottom: 0.7em;
+}
+
+#eksempler img{
+    margin-bottom: 0em;
+}
+
+#eksempler h3{
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+#eksempler p{
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+}
+
+#eksempler .sectionwrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#eksempler .column{
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#eksempler.column_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+/* Typografi */
+
+#typografi .sectionwrapper{
+   display: flex;
+    flex-wrap: wrap;
+}
+
+.column_wide {
+    flex-basis: 400px;
+    flex-grow: 3;
+
+}
+
+#typografi h2{
+    margin-top: .5em;
+    margin-bottom: 0em;
+}
+
+#typografi p{
+    margin-top: .5em;
+    margin-bottom: 0.7em;
+}
+
+#typografi h3{
+    margin-bottom: 0.8em;
+}
+.column_narrow {
+    flex-basis: 400px;
+    flex-grow: 1;
+
+}
+
+
+#typografi .top{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text{
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+
+#typografi .column_wide{
+    display: flex;
+    flex-direction: row;
+}
+
+}
+
+.image{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+
+#typografi .bottom{
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+/* Komposition/Farve*/
+
+#komposition_farver .farve{
+   display: inline-block;
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    line-height: 15vw;
+    border-radius: 10px;
+    display: flex;
+    margin-right: 1.5em;
+    margin-top: 0.8em;
+}
+
+#komposition_farver h2{
+    margin-top: .5em;
+    margin-bottom: 0em;
+}
+
+#komposition_farver h3{
+    margin-top: .5em;
+    margin-bottom: 0em;
+}
+
+#komposition_farver p{
+    margin-top: .5em;
+    margin-bottom: 0.7em;
+}
+
+
+#box1{
+    background-color:#BDAC6F
+}
+
+#box2{
+    background-color: #D9B88F
+}
+
+#box3{
+    background-color: #432515
+}
+#box4{
+    background-color: #A55F43
+}
+#box5{
+    background-color: #A48458
+}
+
+
+#komposition_farver .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#komposition_farver .column_wide {
+    flex-basis: 400px;
+    flex-grow: 3;
+}
+
+#komposition_farver .column_narrow{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.colors{
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.content{
+    flex-basis: 200px;
+    flex-grow: 3;
+
+}
+
+/* Links */
+
+#links .sectionwrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#links .content{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#links h2{
+    margin-top: .5em;
+    margin-bottom: 0em;
+}
+
+#links h3{
+    margin-top: .5em;
+    margin-bottom: 0.3em;
+}
+
+#links ul{
+    margin-top: 0.5em;
+    margin-bottom: 0.7em;
+}
+
+/* Ekstra */
+
+#ekstra .sectionwrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ekstra .content{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#ekstra h2{
+    margin-top: .5em;
+    margin-bottom: 0em;
+}
+
+#ekstra p{
+    margin-top: .5em;
+    margin-bottom: 0.7em;
+}
+
+/* Fonte og styletile */
+#styletile{
+    background-color: antiquewhite;
+
+
+}
+h1{
+    font-family: 'Fondamento', cursive;
+}
+
+
+h2{
+font-family: 'Berkshire Swash', cursive;
+
+}
+
+h3{
+font-family: 'Lora', serif;
+font-weight: 700;
+}
+
+p{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.color{
+    display: inline-block;
+    width: 20vw;
+    height: 15vw;
+    border: 2px solid black;
+    margin-bottom: 13px;
+    background-color: orange;
+    text-align: center;
+    line-height: 15vw;
+    border-radius: 10px;
+
+}
+
+#boks1{
+    background-color:rgb(89,115,5)
+}
+
+#boks2{
+    background-color: rgb(59,65,0)
+}
+
+#boks3{
+    background-color: rgb(165,82,4)
+}
+
+#boks4{
+    background-color: rgb(244,130,30)
+}
+
+
+#boks5{
+    background-color: rgb(38,9,0); color: grey
+}
+
+/*Splash*/
+
+#splash{
+    display: flex;
+}
+
+.splash{
+    float: left;
+}

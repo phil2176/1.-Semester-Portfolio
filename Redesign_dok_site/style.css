@@ -1,0 +1,29 @@
+.hs-responsive-embed-youtube iframe {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    padding-top: 25px;
+}
+
+
+h1 {
+    font-family: 'Kohinoor Telugu';
+}
+
+h2 {
+    font-family: 'Kohinoor Telugu';
+}
+
+h3 {
+    font-family: 'Kohinoor Telugu';
+}
+
+p {
+    font-family: 'Kohinoor Telugu';
+}

@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#scene {
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+#baggrund {
+    background-image: url(background.svg);
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+#clouds {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(clouds.svg);
+    background-size: 100% 100%;
+    animation-name: clouds_kf;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: -1;
+
+}
+
+@keyframes clouds_kf {
+    from {
+    left: 100vw;
+    top: 0vw;
+    }
+
+    to {
+    left: -100vw;
+    top: 0vw;
+    }
+}
+
+
+#boy {
+    width: 15vw;
+    height: 25vw;
+    background-image: url(boyani.svg);
+    background-size: 800% 100%;
+    z-index: -2;
+}
+
+
+.boywalking {
+    animation-name: walkboy;
+    animation-duration: 0.8s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+}
+
+.boy_sprite {
+    position: absolute;
+    animation-name: boy_move_kf;
+}
+
+
+@keyframes walkboy {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -800% 0%;
+    }
+     form {
+        left: -34vw;
+    }
+    to {
+        left: 52vw;
+    }
+}
+
+@keyframes boy_move_kf {
+
+    form {
+        left: -34vw;
+    }
+    to {
+        left: 52vw;
+    }
+}
+
+#girl_sprite {
+    position: absolute;
+}
+
+.girl_walkcycle {
+    animation-name: girl_move_kf;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+#girl {
+    width: 15vw;
+    height: 25vw;
+    background-image: url(girlani.svg);
+    background-size: 800% 100%;
+    z-index: 4;
+}
+
+.girlwalking {
+    animation-name: walkgirl;
+    animation-duration: 0.8s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+}
+
+@keyframes walkgirl {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -800% 0%;
+    }
+}
+
+@keyframes girl_move_kf {
+
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 48vw;
+    }
+}
+
+
+#hand_sprite {
+    position: absolute;
+    width: 15vw;
+    height: 25vw;
+    background-image: url(handani.svg);
+    background-size: 500% 100%;
+    z-index: 3;
+    transform: translate(50vw,-16vw);
+}
+
+.hand_thumbcycle {
+    animation-name: hand;
+    animation-duration: 1s;
+    animation-timing-function: steps(5);
+    animation-iteration-count: infinite;
+}
+
+@keyframes hand {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -500% 0%;
+    }
+}
