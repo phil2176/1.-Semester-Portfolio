@@ -1,0 +1,242 @@
+
+/* nav */
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* Om sektionen */
+#om .img {
+    width: 100%;
+}
+
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+#om .column {
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* phillip */
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+li {
+   font-family: 'Raleway', sans-serif;
+}
+ #blandet img{
+    width: 100%;
+    margin-top: 7px;
+    height: 26em;
+}
+
+/* blandet */
+#blandet sectionwrapper{
+    flex-wrap: wrap;
+    width: 30vw;
+}
+
+#blandet column{
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+@media only screen and (max-width: 600px){
+
+    .sectionwrapper{
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+    #blandet {
+        flex-direction: column;
+    }
+}
+
+#blandet {
+    display: flex;
+}
+
+#blandet .column{
+    padding-top: 15em;
+    padding-bottom: 10em;
+    padding-left: .25em;
+    padding-right: .25em;
+}
+
+#kontakt .sectionwrapper {
+    background-color: #4e4e4e;
+    padding: 1em;
+    border: 2px solid #b9aaaa;
+    margin-top: 10em;
+
+}
+
+#kontakt .column {
+    margin: 0 auto;
+    max-width: 40em;
+}
+
+#kontakt .top {
+    color: #d6d6d6;
+}
+
+#splash img{
+    width: 100%;
+    padding-bottom: 15em;
+}
+
+/* terrasse splash billede */
+#terrasse_splash img {
+    width: 100%;
+}
+
+/* Terrasser */
+#terrasser .column_content1 {
+    text-align: center;
+    padding-top: 10em;
+
+}
+
+#terrasser .column_content2 {
+    text-align: center;
+    padding-left: 20em;
+    padding-right: 20em;
+    padding-bottom: 10em;
+}
+
+/* essve */
+#essve .column_content1 {
+    text-align: center;
+    padding-left: 20em;
+    padding-right: 20em;
+
+}
+
+#essve .column_content2 {
+    padding-left: 20em;
+    padding-right: 20em;
+    padding-top: 1em;
+}
+
+/* billeder */
+#billeder {
+    text-align: center;
+    padding-top: 10em
+}
+
+/* link design (nav) */
+
+
+.sticky a:link, a:visited {
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.sticky a:hover, a:active {
+    background-color: sandybrown;
+    }
+
+/*SEKTION ARBEJDE*/
+#arbejde .arbejde_overskrift {
+    text-align: center;
+}
+
+#arbejde img {
+    width: 100%;
+}
+
+#arbejde .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#arbejde .column {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+
+@media only screen and (max-width: 1920px) {
+
+    #arbejde .column_content .top {
+
+        padding: 0.5em 0em 0em 0.5em;
+    }
+
+    #arbejde .column_content .bottom {
+
+        padding: 0.5em 0em 0em 0.5em;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 780px) {
+    #arbejde .column {
+        flex-basis: 400px;
+    }
+
+    .column_content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top,
+    .bottom {
+        flex-grow: 1;
+        flex-basis: 250px;
+    }
+
+
+    #arbejde .column_content .top {
+
+        padding: 0.5em 0em 0em 0em;
+    }
+
+    #arbejde .column_content .bottom {
+
+        padding: 0.5em 0em 0em .5em;
+    }
+}
+
+.slideshow{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+
+@media only screen and (max-width: 538px) {
+
+    #arbejde .column_content .bottom {
+
+        padding: 0.25em 0em 0em 0em;
+    }
+}
+
+/*billeder*/
+
+#billeder .slideshow {
+    text-align: center;
+
+}
